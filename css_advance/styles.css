@@ -1,0 +1,335 @@
+body {
+    max-width: 1440px;
+    margin: 0;
+}
+
+/* header
+==============*/
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 30%;
+    align-items: center;
+    z-index: 1000;
+    position: relative;
+    top: 20px;
+    width: 1103.41px
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-items {
+    display: flex;
+    gap: 30px;
+}
+
+/* section header
+===================*/
+
+.section-header {
+    height: 1093px;
+    background-image: url(assets/Object.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: -35px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-bottom: 0;
+}
+
+.header-title h1 {
+    font-size: 100px;
+    position: relative;
+    top: 55px;
+}
+
+.header-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: -100px;
+}
+
+.header-title p {
+    position: relative;
+    top: -50px;
+}
+
+.header-title button {
+    display: inline-block;
+    border: 10px solid rgb(158, 113, 235);
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(158, 113, 235);
+    cursor: pointer;
+}
+
+.second-sec h2 {
+    text-align: center;
+    position: relative;
+    bottom: -300px;
+}
+
+.second-sec {
+    display: flex;
+    flex-direction: column;
+}
+
+.pro-container {
+    display: flex;
+    position: relative;
+    bottom: -330px;
+    gap: 150px;
+}
+
+#round {
+    border-radius: 50%;
+}
+
+.pros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.up {
+    position: relative;
+    top: -25px;
+}
+
+.up-up {
+    position: relative;
+    top: -50px;
+}
+
+/* testimonial section
+========================*/
+
+.testimonial {
+    height: 392px;
+    background-color: rgb(158, 113, 235);
+    margin: 0;
+    position: relative;
+    top: -35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-container {
+    display: flex;
+    width: 943px;
+    height: 160px;
+    gap: 50px;
+    color: white;
+}
+
+.quot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.self {
+    align-self: flex-start;
+    position: relative;
+    right: -40px;
+}
+
+/* tutorial section
+======================*/
+.tutorial {
+    width: 1228px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    right: -100px;
+    margin-top: 30px;
+}
+
+.tutorial-container {
+    display: flex;
+    height: 335px;
+    gap: 20px;
+}
+
+.vid-con {
+    width: 255px;
+    height: 335px;
+
+}
+
+.vid-con p {
+    font-size: 13px;
+}
+
+.vid-up {
+    position: relative;
+    top: -10px;
+}
+
+.vid-up-up {
+    position: relative;
+    top: -20px;
+}
+
+.author-con {
+    display: flex;
+    align-items: center;
+    gap:5px;
+    color: rgb(158, 113, 235);
+    position: relative;
+    top: -30px;
+}
+.rating-con {
+    position: relative;
+    top: -40px;
+}
+
+.time {
+    display: flex;
+}
+
+.min {
+    position: relative;
+    right: -90px;
+    top: -50px;
+    color:rgb(158, 113, 235)
+}
+
+/* membership section
+======================*/
+
+.section-membership {
+    height: 502px;
+    background-color: rgb(3, 3, 21);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    position: relative;
+    bottom: -20px;
+}
+
+.section-membership h1 {
+    position: relative;
+    bottom: -50px;
+}
+
+.smile-container {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    gap: 50px;
+    position: relative;
+    bottom: -100px;
+}
+
+.smile-ico {
+    width: 257px;
+    height: 153px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.section-membership button {
+    display: inline-block;
+    border: 10px solid rgb(158, 113, 235);
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(158, 113, 235);
+    cursor: pointer;
+    position: relative;
+    bottom: -190px;
+}
+
+/* faQ section
+===================*/
+
+.faq-section {
+    width: 920px;
+    height: 707px;
+    position: relative;
+    right: -250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq-section h1 {
+    position: relative;
+    bottom: -50px;
+}
+
+.faq-con {
+    display: flex;
+    justify-content: space-between;
+    width: 920px;
+    gap: 200px;
+    position: relative;
+    bottom: -100px;
+}
+
+.faq-text {
+    display: flex;
+    flex-direction: column;
+}
+
+/* footer section
+===================*/
+
+footer {
+    height: 249px;
+    background-color: rgb(3, 3, 21);
+    position: relative;
+    bottom: -100px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    justify-content: center;
+
+
+}
+
+#footer-logo {
+    width: 161px;
+    height: 32px;
+}
+
+#copywrite {
+    color: white;
+    align-self: center;
+    position: relative;
+    bottom: -30px;
+    
+}
+
+.footer-con {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+}
