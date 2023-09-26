@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>user details</legend>
+            <div>
+                <label for="name">name:</label>
+                <input type="text" name="name" placeholder="enter name" required>
+            </div>
+            <div>
+                <label for="email">email:</label>
+                <input type="email" name="email" placeholder="enter email" required>
+            </div>
+            <div>
+                <label for="color">favourite color:</label>
+                <select name="color" required>
+                    <option>red</option>
+                    <option>blue</option>
+                    <option>green</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>date and time</legend>
+            <div>
+                <label for="time">select time</label>
+                <input type="time" name="time" required>
+            </div>
+            <div>
+                <label for="date">select date</label>
+                <input type="date" name="date" required>
+            </div>
+        </fieldset>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+</body>
+</html>

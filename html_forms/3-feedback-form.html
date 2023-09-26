@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="name">name:</label>
+            <input type="text" name="name" placeholder="enter name" required>
+        </div>
+        <div>
+            <label for="email">email:</label>
+            <input type="email" name="email" placeholder="enter email" required>
+        </div>
+        <fieldset pattern="excellent | good | average | poor">
+            <legend>feedback</legend>
+            <div>
+                <label for="excellent">excellent:</label>
+                <input type="checkbox" name="excellent" >
+            </div>
+            <div>
+                <label for="good">good:</label>
+                <input type="checkbox" name="good" >
+            </div>
+            <div>
+                <label for="average">average:</label>
+                <input type="checkbox" name="average" >
+            </div>
+            <div>
+                <label for="poor">poor:</label>
+                <input type="checkbox" name="poor" >
+            </div>
+            <div>
+                <input type="checkbox" name="excellent"  >
+            </div>
+        </fieldset>
+        <div>
+            <input type="file" required>
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+</body>
+</html>
