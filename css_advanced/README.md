@@ -1,5 +1,7 @@
 # HTML / CSS
 
+# view this page with a zoom of 110%
+
 Flexbox (Flexible Box Layout) is a powerful CSS layout module that provides a flexible and efficient way to arrange and align elements within a container. It offers a comprehensive set of properties and values that enable developers to create responsive and dynamic layouts for web applications.
 
 ## Getting Started

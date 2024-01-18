@@ -1,9 +1,6 @@
 body {
     max-width: 1440px;
     margin: 0;
-    position: relative;
-    right: -150px;
-    
 }
 
 /* header
@@ -22,7 +19,7 @@ header {
     z-index: 1000;
     position: relative;
     top: 20px;
-    width: 1103.41px
+    width: 1103px;
 }
 
 .nav-items a {
